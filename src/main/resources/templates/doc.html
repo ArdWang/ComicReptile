@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>接口获取</title>
+
+    <link th:href="@{bootstrap/css/bootstrap.css}" rel="stylesheet" />
+    <link th:href="@{bootstrap/css/bootstrap-theme.css}" rel="stylesheet" />
+
+</head>
+<body>
+<div style="color: #2b669a;font-size: 36px">
+    &nbsp;&nbsp;接口调试 Get 请求方式 Demo<br/>
+    &nbsp;&nbsp;http://xxx/getData?action=getUser username=yuan password=123456
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2 class="panel-title">User - Support Get/Post</h2>
+    </div>
+    <div class="panel-body">
+        <h3>getData/getUser</h3>
+        此接口用于获取用户的登录信息<br/>
+        action = getUser<br/>
+        username = yuan<br/>
+        password = 123456<br/><br/>
+
+        接口参数<br/>
+        username 用户名<br/>
+        password 用户密码<br/>
+
+    </div>
+
+    <div class="panel-body">
+        <h3>getData/addUser</h3>
+        此接口用于注册用户<br/>
+        action = addUser<br/>
+        username = demo<br/>
+        password = 123456<br/><br/>
+
+        接口参数<br/>
+        username 用户名<br/>
+        password 用户密码<br/>
+
+
+    </div>
+</div>
+
+</body>
+</html>
